@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>رسالة الحب + مفاجأة</title>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(45deg, #240b36, #6a0dad, #b21f1f);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* الكارد الزجاجي للرسالة */
+.glass-card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    padding: 30px;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255,0.3);
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    max-width: 500px;
+    width: 90%;
+}
+
+/* نص الرسالة */
+.glass-card p {
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #fff;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* زرار المفاجأة */
+.magic-btn {
+    margin-top: 20px;
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(45deg,#ff007f,#6a0dad);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 25px rgba(255,0,127,0.6);
+    transition: 0.4s;
+    font-weight: bold;
+}
+.magic-btn:hover {
+    transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 0 40px rgba(255,0,127,0.9);
+}
+
+/* Media Query للموبايل */
+@media screen and (max-width: 600px) {
+    .glass-card {
+        width: 90%;
+        padding: 20px;
+    }
+    .glass-card p {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+    .magic-btn {
+        padding: 12px 30px;
+        font-size: 1.1rem;
+    }
+}
+</style>
+</head>
+<body>
+    
+<div class="glass-card">
+    <p>حبيبي، أحبك من كل قلبي 🥹❤️🫂</p>
+    <p>كل لحظة معاك كانت ذكرى حلوة...❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</p>
+   <p>بحبك اوي يا مودي بحب كل احساس وكل حاجه عشتها معاك دايما بتيجي في بالي و بفكر فيك و عمري ما قدرت انسى اى حاجه عشتها معاك مكنتش اتخيل أن بنوتك تهون عليك في يوم من الايام هان عليك كل شعور حلو حسيتو معايا 🥹!لسه فاكره ضحكتك و لسه فاكره لما كنت بتكون مكسوف وانت فاتح كاميرا ،فاكر البوسة بتاعتنا؟ 😭😭🥹🥹❤️❤️</p>
+    
+</div>
+    <button class="magic-btn" onclick="window.open('https://youtu.be/HVgy8Ge0GJQ?si=FE4SzbzthiS7T7Jl')">
+        مفاجأة أخيرة😍
+    </button>
+    <script>
+</body>
+</html>
